@@ -235,6 +235,7 @@
 				517EC3D91B79D2F30007BA07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
