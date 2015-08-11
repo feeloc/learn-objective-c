@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		517EC3D41B79D2F30007BA07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 517EC3D31B79D2F30007BA07 /* main.m */; };
+		628ED59D07EE2E6DA60F9D5F /* NSMutableStringClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 628EDD8C91864E62BCC9B454 /* NSMutableStringClass.m */; };
+		628EDF5510A6013DBCB450B8 /* NSStringClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 628EDB8D7A173DA6A0CF8CBF /* NSStringClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		517EC3D01B79D2F30007BA07 /* foundation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = foundation; sourceTree = BUILT_PRODUCTS_DIR; };
 		517EC3D31B79D2F30007BA07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		628EDB25E986892C9559582B /* NSMutableStringClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableStringClass.h; sourceTree = "<group>"; };
+		628EDB8D7A173DA6A0CF8CBF /* NSStringClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringClass.m; sourceTree = "<group>"; };
+		628EDBAD2AFA68B63A39C1DF /* NSStringClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringClass.h; sourceTree = "<group>"; };
+		628EDD8C91864E62BCC9B454 /* NSMutableStringClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableStringClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				517EC3D31B79D2F30007BA07 /* main.m */,
+				628EDB8D7A173DA6A0CF8CBF /* NSStringClass.m */,
+				628EDBAD2AFA68B63A39C1DF /* NSStringClass.h */,
+				628EDD8C91864E62BCC9B454 /* NSMutableStringClass.m */,
+				628EDB25E986892C9559582B /* NSMutableStringClass.h */,
 			);
 			path = foundation;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				517EC3D41B79D2F30007BA07 /* main.m in Sources */,
+				628EDF5510A6013DBCB450B8 /* NSStringClass.m in Sources */,
+				628ED59D07EE2E6DA60F9D5F /* NSMutableStringClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

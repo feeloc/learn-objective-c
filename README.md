@@ -54,6 +54,7 @@ NSLog(@"OC转C：%s", [str UTF8String]);
 // 创建字符串
 NSString *str2 = [[NSString alloc] init];
 str2 = @"需要自己管理内存的字符串";
+NSLog(@"不自动管理的字符串值是：", str2);
 
 // 格式化字符串
 int a = 1;
@@ -118,6 +119,29 @@ NSLog(@"截取后的字符串是：%@", [str9 substringToIndex:2]);
 for (int i = 0; i < [str9 length]; i++) {
     NSLog(@"第%d位字符是：%c", i + 1, [str9 characterAtIndex:i]);
 }
+
+// 查找字符串
+NSString *str11 = @"adfa adfa 2rfw asdf fgfadf";
+// 查找指定字符串
+NSRange rangeOfStr11 = [str11 rangeOfString:@"ad"];
+NSLog(@"ad的位置是：%ld,%ld", rangeOfStr11.location, rangeOfStr11.length);
+// 替换某个范围的字符串
+NSLog(@"替换后的是：%@", [str11 stringByReplacingCharactersInRange:NSMakeRange(0, 10) withString:@"feeloc"]);
+// 替换指定的字符串
+NSLog(@"替换后的是：%@", [str11 stringByReplacingOccurrencesOfString:@"ad" withString:@"胡"]);
+
+// 读取网络文件
+NSURL *httpURL = [NSURL URLWithString:@"http://www.baidu.com"];
+NSString *httpStr = [NSString stringWithContentsOfURL:httpURL encoding:NSUTF8StringEncoding error:NULL];
+NSLog(@"%@\n", httpStr);
+
+// 读取本地文件
+NSString *fileStr = [NSString stringWithContentsOfFile:@"/Users/hujianmeng/projects/oc/learn-objective-c/README.md" encoding:NSUTF8StringEncoding error:NULL];
+NSLog(@"%@\n", fileStr);
+
+// 写入文件
+NSString *fileWrite = @"写文件哦";
+[fileWrite writeToFile:@"/Users/hujianmeng/Desktop/你好.txt" atomically:YES encoding:NSUTF8StringEncoding error:NULL];
 
 ```
 
