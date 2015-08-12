@@ -7,4 +7,5 @@
 
 
 @interface NSMutableStringClass : NSObject
++ (void) demo;
 @end

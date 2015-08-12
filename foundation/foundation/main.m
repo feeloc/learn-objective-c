@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "NSStringClass.h"
+#import "NSMutableStringClass.h"
 
 int main(int argc, const char *argv[]) {
     @autoreleasepool {
-        [NSStringClass demos];
+//        [NSStringClass demos];
+        [NSMutableStringClass demo];
     }
     return 0;
 }
