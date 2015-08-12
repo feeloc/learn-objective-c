@@ -34,7 +34,7 @@ Xcode 代码格式化/自动排版 右击 ->Structure ->Re-Indent
 
 ## 二、基本语法
 
-* NSString
+* 1. NSString
 ```objective-c
 
 // C、OC字符串相互转换
@@ -145,7 +145,7 @@ NSString *fileWrite = @"写文件哦";
 
 ```
 
-* NSMutableString
+* 2. NSMutableString
 ```objective-c
 
 // 声明可变字符串
@@ -175,7 +175,7 @@ NSLog(@"%@", str);
 
 ```
 
-3. NSArray
+* 3. NSArray
 ```objective-c
 
 // 只能存放对象，可以存储不同类型的对象
@@ -239,7 +239,7 @@ while (obj = [enumerator nextObject]) {
 
 ```
 
-4. NSMutableArray
+* 4. NSMutableArray
 ```objective-c
 
 //自定义类
@@ -280,7 +280,7 @@ NSLog(@"删除所有元素后：%@", array1);
 
 ````
 
-5. NSDictionary
+* 5. NSDictionary
 ```objective-c
 
 //初使化
@@ -342,7 +342,7 @@ while (key= [enumerator nextObject]){
 
 ```
 
-6. NSMutableDictionary
+* 6. NSMutableDictionary
 ```objective-c
 
 //初使化
