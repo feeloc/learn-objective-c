@@ -11,6 +11,7 @@
 - (instancetype)initWithName:(NSString *)name {
     self = [super init];
     if (self) {
+        _name = name;
         _personName = name;
     }
     return self;
@@ -25,6 +26,10 @@ static NSString *_name1 = @"aaaa";
 - (NSString *)getName {
     return _name;
 }
+
+- (NSString *)argument:(NSString *)a :(NSString *)b {
+    return [a stringByAppendingString:b];
+};
 
 + (NSString *)showName {
     return [@"类方法" stringByAppendingString:_name1];

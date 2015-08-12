@@ -5,6 +5,7 @@
 
 #import "OOP.h"
 #import "People.h"
+#import "Student.h"
 
 @implementation OOP
 + (void)demo {
@@ -25,5 +26,13 @@
 
     NSLog(@"静态方法%@", [People showName]);
     NSLog(@"动态方法%@", [people showName]);
+
+    NSLog(@"参数相加%@", [people argument:@"aaa+" :@"bbb"]);
+
+    NSLog(@"公有的成员变量：%@", people->type);
+
+    Student *student = [[Student alloc] initWithName:@"我是学生"];
+    NSLog(@"继承过来的：%@", student.name);
+    NSLog(@"继承过来的：%@", [student showName]);
 }
 @end
