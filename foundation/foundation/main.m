@@ -14,6 +14,7 @@
 #import "NSDictionaryClass.h"
 #import "NSMutableDictionaryClass.h"
 #import "OOP.h"
+#import "Base.h"
 
 int main(int argc, const char *argv[]) {
     @autoreleasepool {
@@ -23,8 +24,8 @@ int main(int argc, const char *argv[]) {
 //        [NSMutableArrayClass demo];
 //        [NSDictionaryClass demo];
 //        [NSMutableDictionaryClass demo];
-
-        [OOP demo];
+//        [OOP demo];
+        [Base demo];
     }
     return 0;
 }

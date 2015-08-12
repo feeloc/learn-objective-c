@@ -38,6 +38,7 @@ People *p3 = [[People new] initWithName:@"new 出来的"];
 
 //属性
 @property(nonatomic, strong) NSString *name;
+@property(readonly) NSString *name;
 
 //get set方法
 - (void)setName:(NSString *)name {

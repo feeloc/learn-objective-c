@@ -370,3 +370,31 @@ NSLog(@"删除所有后的值是：%@", mutableDictionary);
 ```
 
 ## [三、面向对象(点击查看)](https://github.com/feeloc/learn-objective-c/blob/master/OOP.md)
+
+## 数据类型
+```objective-c
+
+//基本数据类型
+int i1;
+int i2 = 1;
+
+float f1;
+float f2 = 1.1;
+
+double d1;
+double d2 = 2.22;
+
+char c1 = 'a';
+NSLog(@"%c", c1);
+
+char *c2 = "aaaa";
+NSLog(@"%s", c2);
+
+//限定词
+long
+long long
+short
+unsigned
+signed
+
+```
