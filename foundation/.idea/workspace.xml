@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14cde298-fe76-43c3-aede-c3868c76728c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/NSDictionaryClass.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/NSDictionaryClass.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation/NSArrayClass.m" afterPath="$PROJECT_DIR$/foundation/NSArrayClass.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation/main.m" afterPath="$PROJECT_DIR$/foundation/main.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/foundation.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="foundation.iws" />
@@ -35,8 +30,8 @@
       <file leaf-file-name="main.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/foundation/main.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55217963" vertical-offset="0" max-vertical-offset="757">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.47688243" vertical-offset="0" max-vertical-offset="757">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
                 <element signature="e#131#164#0" expanded="true" />
               </folding>
@@ -456,8 +451,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foundation/main.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55217963" vertical-offset="0" max-vertical-offset="757">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.47688243" vertical-offset="0" max-vertical-offset="757">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="e#131#164#0" expanded="true" />
           </folding>
