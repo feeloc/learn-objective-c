@@ -14,6 +14,7 @@
 		628EDA77FC52F02573EF59A1 /* NSArrayClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 628ED9189CB502F753476697 /* NSArrayClass.m */; };
 		628EDA88A87FB3143F4E6DB4 /* NSMutableArrayClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 628EDBB6CD22B4EB24341720 /* NSMutableArrayClass.m */; };
 		628EDF5510A6013DBCB450B8 /* NSStringClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 628EDB8D7A173DA6A0CF8CBF /* NSStringClass.m */; };
+		628EDFB65A0F5EC9FCD2024B /* NSMutableDictionaryClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 628ED33514763B4132B9AC3F /* NSMutableDictionaryClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,8 +34,10 @@
 		517EC3D31B79D2F30007BA07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		628ED0B8EB440FC28906F6B0 /* NSDictionaryClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryClass.h; sourceTree = "<group>"; };
 		628ED18F338DD866025CAEAA /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		628ED33514763B4132B9AC3F /* NSMutableDictionaryClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableDictionaryClass.m; sourceTree = "<group>"; };
 		628ED7500DB64A55CAAAE717 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
 		628ED8341A44C081580AA7D5 /* NSMutableArrayClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableArrayClass.h; sourceTree = "<group>"; };
+		628ED884AF701DDA7F9D28AE /* NSMutableDictionaryClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableDictionaryClass.h; sourceTree = "<group>"; };
 		628ED9189CB502F753476697 /* NSArrayClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayClass.m; sourceTree = "<group>"; };
 		628EDB157D68D1065205D84E /* NSDictionaryClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryClass.m; sourceTree = "<group>"; };
 		628EDB25E986892C9559582B /* NSMutableStringClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableStringClass.h; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				628ED7500DB64A55CAAAE717 /* People.h */,
 				628EDB157D68D1065205D84E /* NSDictionaryClass.m */,
 				628ED0B8EB440FC28906F6B0 /* NSDictionaryClass.h */,
+				628ED33514763B4132B9AC3F /* NSMutableDictionaryClass.m */,
+				628ED884AF701DDA7F9D28AE /* NSMutableDictionaryClass.h */,
 			);
 			path = foundation;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 				628EDA88A87FB3143F4E6DB4 /* NSMutableArrayClass.m in Sources */,
 				628ED136D423D0DC27777618 /* People.m in Sources */,
 				628EDA4560E0256E5B141143 /* NSDictionaryClass.m in Sources */,
+				628EDFB65A0F5EC9FCD2024B /* NSMutableDictionaryClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

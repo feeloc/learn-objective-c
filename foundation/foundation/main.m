@@ -12,6 +12,7 @@
 #import "NSArrayClass.h"
 #import "NSMutableArrayClass.h"
 #import "NSDictionaryClass.h"
+#import "NSMutableDictionaryClass.h"
 
 int main(int argc, const char *argv[]) {
     @autoreleasepool {
@@ -20,6 +21,7 @@ int main(int argc, const char *argv[]) {
 //        [NSArrayClass demo];
 //        [NSMutableArrayClass demo];
 //        [NSDictionaryClass demo];
+        [NSMutableDictionaryClass demo];
     }
     return 0;
 }
