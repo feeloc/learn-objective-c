@@ -34,7 +34,7 @@ Xcode 代码格式化/自动排版 右击 ->Structure ->Re-Indent
 
 ## 二、基本语法
 
-1. NSString
+* NSString
 ```objective-c
 
 // C、OC字符串相互转换
@@ -145,7 +145,7 @@ NSString *fileWrite = @"写文件哦";
 
 ```
 
-2. NSMutableString
+* NSMutableString
 ```objective-c
 
 // 声明可变字符串
