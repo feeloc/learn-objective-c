@@ -61,5 +61,10 @@
     while (obj = [enumerator nextObject]) {
         NSLog(@"枚举器，第%d个元素是：%@", ++index, obj);
     }
+
+    //enumerator block
+    [array enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        NSLog(@"枚举器，第%d个元素是：%@", ++idx, obj);
+    }];
 }
 @end

@@ -11,13 +11,15 @@
 #import "NSMutableStringClass.h"
 #import "NSArrayClass.h"
 #import "NSMutableArrayClass.h"
+#import "NSDictionaryClass.h"
 
 int main(int argc, const char *argv[]) {
     @autoreleasepool {
 //        [NSStringClass demos];
 //        [NSMutableStringClass demo];
 //        [NSArrayClass demo];
-        [NSMutableArrayClass demo];
+//        [NSMutableArrayClass demo];
+//        [NSDictionaryClass demo];
     }
     return 0;
 }
