@@ -7,7 +7,7 @@
 
 
 @implementation NSMutableStringClass
-+ (void) demo{
++ (void)demo {
     // 声明可变字符串
     NSMutableString *str = [[NSMutableString alloc] initWithCapacity:10];
     [str setString:@"feeloc"];

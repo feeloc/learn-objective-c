@@ -9,11 +9,15 @@
 #import <Foundation/Foundation.h>
 #import "NSStringClass.h"
 #import "NSMutableStringClass.h"
+#import "NSArrayClass.h"
+#import "NSMutableArrayClass.h"
 
 int main(int argc, const char *argv[]) {
     @autoreleasepool {
 //        [NSStringClass demos];
-        [NSMutableStringClass demo];
+//        [NSMutableStringClass demo];
+//        [NSArrayClass demo];
+        [NSMutableArrayClass demo];
     }
     return 0;
 }
