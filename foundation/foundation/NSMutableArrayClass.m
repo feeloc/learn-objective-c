@@ -9,8 +9,15 @@
 @implementation NSMutableArrayClass
 + (void)demo {
     //自定义类
+    /**
+    * alloc方法申请内存空间
+    * initWithName是自定义的初使化方法
+    */
     People *p1 = [[People alloc] initWithName:@"张三"];
     People *p2 = [[People alloc] initWithName:@"王五"];
+
+    //使用new初使化对象
+    People *p3 = [[People new] initWithName:@"new 出来的"];
 
     //直接初使化
     NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:p1, p1, NULL];

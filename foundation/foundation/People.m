@@ -7,6 +7,7 @@
 
 
 @implementation People
+
 - (instancetype)initWithName:(NSString *)name {
     self = [super init];
     if (self) {
@@ -14,4 +15,23 @@
     }
     return self;
 }
+
+static NSString *_name1 = @"aaaa";
+
+- (void)setName:(NSString *)name {
+    _name = name;
+}
+
+- (NSString *)getName {
+    return _name;
+}
+
++ (NSString *)showName {
+    return [@"类方法" stringByAppendingString:_name1];
+}
+
+- (NSString *)showName {
+    return @"对象方法";
+}
+
 @end
